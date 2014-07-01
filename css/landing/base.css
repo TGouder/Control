@@ -1,0 +1,64 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+html { 
+	background: url(../../img/landing-bg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+html, body {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+#horizon {
+	width: 100%;
+	height: 1px;
+	position: absolute;
+	overflow: visible;
+	top: 50%;
+}
+
+#layer {
+	position: absolute;
+	background-color: rgba(255,255,255,0.4);
+	width: 500px;
+	height: 230px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+}
+
+#grid {
+	width: 500px;
+	height: 230px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -100px;
+}
+
+#container {
+	position: absolute;
+	background-color: rgba(255,255,255,0.4);
+	width: 470px;
+	height: 200px;
+	margin-left: 15px;
+	margin-right: auto;
+	margin-top: 15px;
+}
+
+#text-logo {
+	margin-top: 10px;
+	width: 100%;
+	height: 50px;
+	background-image: url('../../img/logo.png');
+	background-repeat: no-repeat;
+	background-size: 50px;
+	background-position: center;
+}
+
+#form {
+	
+}
