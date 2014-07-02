@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 
-html { 
-	background: url(../../img/landing-bg.jpg) no-repeat center center fixed; 
+html {
+	background: url(../../img/landing-bg.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -50,15 +50,54 @@ html, body {
 }
 
 #text-logo {
-	margin-top: 10px;
-	width: 100%;
-	height: 50px;
+	width: 150px;
+	height: 100%;
 	background-image: url('../../img/logo.png');
 	background-repeat: no-repeat;
-	background-size: 50px;
+	background-size: 120px;
+	float: left;
 	background-position: center;
 }
 
 #form {
-	
+	width: 320px;
+	height: 100%;
+	float:right;
+}
+
+#form-horizon {
+	width: 320px;
+	height: 1px;
+	position: absolute;
+	overflow: visible;
+	top: 50%;
+}
+
+form {
+	margin-top: -52px;
+}
+
+input {
+	width: 90%;
+	height: 34px;
+	border-style: solid;
+	border-width: 0px;
+	border-bottom-width: 3px;
+	border-radius: 0px;
+	-webkit-border-image:url("../../img/landing-bg.jpg") 30 30 stretch; /* Safari 3-5 */
+    -o-border-image:url("../../img/landing-bg.jpg") 30 30 stretch; /* Opera 11-12 */
+    border-image:url("../../img/landing-bg.jpg") 30 30 stretch;
+	background-color: rgba(0,0,0,0);
+	margin-top: 10px;
+	padding: 4px;
+	font-family: Lato;
+	font-size: 18px;
+	font-weight: 100;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }

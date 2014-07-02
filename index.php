@@ -16,8 +16,13 @@
 					<div id="text-logo">
 					</div>
 					<div id="form">
-						<input type="text" placeholder="Control ID"></input>
-						<input type="password" placeholder="Control ID"></input>
+						<div id="form-horizon">
+							<form method="post" action="processor">
+								<input type="text" placeholder="Control ID" name="username"></input>
+								<input type="password" placeholder="Password" name="password"></input>
+								<input type="submit" style="position: absolute; left: -9999px; width: 1px; height: 1px;"/>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
