@@ -13,3 +13,14 @@ Allowing the user to administrate the full features of his microsite.
 Risks and Challenges
 
 The same template must be used for each and every site, so as to make it more effecient. But, we will inclide a library, so that as long as the PHP stays the same, so will the information stay on the websie.
+
+------------------------------
+
+Like my work?
+PayPal: tomgouder@gmail.com
+
+Or send me something nice:
+167,
+Hompesch Road,
+Fgura, FGR 2016
+Malta
